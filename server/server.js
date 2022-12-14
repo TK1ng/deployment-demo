@@ -10,4 +10,4 @@ app.get('/', (req, res) => {
     res.sendFile(path.join(__dirname, '../public/index.html'));
 })
 
-app.listen('4400', () => console.log('Listening on port 4400...'))
+app.listen('3500', () => console.log('Listening on port 3500...'))
